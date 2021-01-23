@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>header_links}}
+</head>
+
+<body>
+  
+  {{>navbar}}
+
+    <!-- main header -->
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                
+                <div class="row">
+                    <!-- left side div -->
+                    <div class="col-md-12 col-12 main_header_left align-items-center">
+
+                         <figure class="errorimg">
+                            <img src="images/page_not_found.svg" class="img-fluid" alt="Nimisha" title="profile pic">
+                          </figure>
+                        
+                        <h1 >{{errorMsg}}</h1>
+                        <a href="/"><button>Go Back</button></a>
+
+                        
+                </div>
+
+            </div>
+       </div>
+    </div>
+
+
+    <!-- footer -->
+    {{>footer}}
+
+
+</body>
+
+</html>
